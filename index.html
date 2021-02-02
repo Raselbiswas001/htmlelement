@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Viewport" content="width=device-width initial-scale=1.0">
+	<title>Elementp</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="form">
+     <h1>The i element</h1>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text <i>ever since the 1500s,</i> </p>
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text" name="fname" id="fname"><br><br>
+<label for="lname">Last Name</label>
+<input type="text" name="lname" id="lname"><br><br>
+<label for="birthday">Birthday</label>
+<input type="number" name="birthday" id="birthday"><br><br>	
+<input type="submit" value="Submit">	
+</form>
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+</div>
+<div class="form1">
+<form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+<h1>The mark element</h1>
+<p>Do not to buy <mark>Alcohol</mark></p>
+
+<h1>The meter element</h1>
+
+<p>The meter element is used to display a gauge:</p>
+
+<label for="css">Css</label><br>
+<meter id="css" value="0.9">90%</meter><br>
+
+<label for="html">Html</label><br>
+<meter id="Html" value="0.8" >80%</meter>
+
+<h1>The nav element</h1>
+
+<p>The nav element defines a set of navigation links:</p>
+<nav>
+	<a href="/html/">HTML</a>
+	<a href="/css/">CSS</a>
+	<a href="/javasciript/">JAVASCIRIPT</a>
+	<a href="/python/">PYTHON</a>
+</nav>
+
+
+<h1>The noscript element</h1>
+
+<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<div class="form2">
+<h1>The optgroup element</h1>
+
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="phone">Choose a phone:</label>
+  <select name="phone" id="phone">
+    <optgroup label="I-Phone">
+      <option value="8plus">8Plus</option>
+      <option value="xr">XR</option>
+    </optgroup>
+    <optgroup label="One Plus">
+      <option value="7t">7T</option>
+      <option value="8t">8T</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	<input type="range" id="a" value="70">
+	+<input type="number" id="b" value="30">
+	=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<h1>The pre element</h1>
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<h1>The progress element</h1>
+
+<label for="file">Downloading:</label>
+<progress id="file" value="44" max="100"> 44% </progress>
+
+<h1>The q element</h1>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<q>when an unknown printer took a galley of type and scrambled it to make a type specimen book</q> </p>
+
+<h1>The rp element</h1>
+
+<ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby>
+
+<h1>The s element</h1>
+
+<p><s>Only 80 Products left!</s></p>
+<p>SOLD OUT!</p>
+
+
+<h1>The samp element</h1>
+
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</small></p>
+
+<h1>The span element</h1>
+
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting <sub>industry</sub></p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting <sup>industry</sup></p>
+
+<div class="svg">
+<h1>The svg element</h1>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="blue" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting <u>industry</u></p>
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+</div>
+
+<div class="videok">
+<h1>The video element</h1>
+
+<video width="320" height="240" controls>
+  <source src="video/kgf.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="wbr">
+<h1>The wbr element</h1>
+
+<p>Try to shrink the browser window, to view how the very long word in 
+the paragraph below will break:</p>
+
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+
+<p><b>Note:</b> The wbr element is not supported in Internet Explorer 11 (or earlier).</p>
+</div>
+
+
+
+</body>
+</html>
